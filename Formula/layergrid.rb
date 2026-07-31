@@ -2,28 +2,28 @@
 class Layergrid < Formula
   desc "Offline static scanner for AI agent stack trifecta risks"
   homepage "https://github.com/layergrid/layergrid-cli"
-  version "0.1.0-alpha.0"
+  version "0.1.0-rc.1"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-alpha.0/layergrid_0.1.0-alpha.0_darwin_amd64.tar.gz"
-      sha256 "9145fd3c3115d6899c96b4ca518711b362f634f1223333540bd1b92998b8b998"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.1/layergrid_0.1.0-rc.1_darwin_amd64.tar.gz"
+      sha256 "5a3d92ef1da7832102676138b1e68c22eb85e7b4f743867123913fc3bbe4fcea"
     end
     on_arm do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-alpha.0/layergrid_0.1.0-alpha.0_darwin_arm64.tar.gz"
-      sha256 "4a8f824f0de44adfe1066b9155a4b73c70e0608069e3586956bdc7f10e1b7c21"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.1/layergrid_0.1.0-rc.1_darwin_arm64.tar.gz"
+      sha256 "b5e2f9d288a97b7fed1fd4bd3c8b667909e24837da8200947ba143a1fdeef500"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-alpha.0/layergrid_0.1.0-alpha.0_linux_amd64.tar.gz"
-      sha256 "0be1b5b634c887a3daa468a886d7901b8eea0ea3ece76e5deebb2b0ce8b1eaaa"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.1/layergrid_0.1.0-rc.1_linux_amd64.tar.gz"
+      sha256 "047c426de329c00a5359c1cf87002c40510caa22102c84c3002ead8755e935a7"
     end
     on_arm do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-alpha.0/layergrid_0.1.0-alpha.0_linux_arm64.tar.gz"
-      sha256 "ec399aeae0e9f30cbe22b02259812b5435d2133b4c8aa831f88e4cf08e796b2a"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.1/layergrid_0.1.0-rc.1_linux_arm64.tar.gz"
+      sha256 "b5cd3c6bc237811148bba9af602ea097770fedb507b814430512a40919b784d9"
     end
   end
 
