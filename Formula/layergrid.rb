@@ -2,28 +2,28 @@
 class Layergrid < Formula
   desc "Offline static scanner for AI agent stack trifecta risks"
   homepage "https://github.com/layergrid/layergrid-cli"
-  version "0.1.0-rc.2"
+  version "0.1.0-rc.3"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.2/layergrid_0.1.0-rc.2_darwin_amd64.tar.gz"
-      sha256 "17454e4fa6488d052cad64cbc1676e200df1ffa2e91e2b8431941af6733be30f"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.3/layergrid_0.1.0-rc.3_darwin_amd64.tar.gz"
+      sha256 "8843443393c6e54a5c105f4220ee7b52d7e2791e8350ec73451f7e86626983ff"
     end
     on_arm do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.2/layergrid_0.1.0-rc.2_darwin_arm64.tar.gz"
-      sha256 "77bc8bbe17e8d49067063b9321b741e634130304a5e18e9fda440c9e80dd7d10"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.3/layergrid_0.1.0-rc.3_darwin_arm64.tar.gz"
+      sha256 "585eb8217caf2057a24ae4761e4f3720e3b3414f33d0abe827e455fefb9f906f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.2/layergrid_0.1.0-rc.2_linux_amd64.tar.gz"
-      sha256 "e952f150199a1686ee65b798741b2cf21764bc0e18c3ec8e32178026e1b8c6c3"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.3/layergrid_0.1.0-rc.3_linux_amd64.tar.gz"
+      sha256 "e238f8310d68e2d06cc80380eaf1242c76224afaee50bbb305189419bf98b585"
     end
     on_arm do
-      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.2/layergrid_0.1.0-rc.2_linux_arm64.tar.gz"
-      sha256 "1efbd361298b239a3e7f5f55933d6dc5c0fcbb4e2b82bb73984f23275e02466e"
+      url "https://github.com/layergrid/layergrid-cli/releases/download/v0.1.0-rc.3/layergrid_0.1.0-rc.3_linux_arm64.tar.gz"
+      sha256 "ab2eae0ad8adba195e199187de996ed41cf748a24bf02de40e3adfdbf0c5472d"
     end
   end
 
